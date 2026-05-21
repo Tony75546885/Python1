@@ -1,1 +1,32 @@
+my_company_app/
+├─ app/
+│  ├─ api/
+│  │  ├─ v1/
+│  │  │  ├─ customers.py
+│  │  │  ├─ auth.py
+│  │  │  └─ __init__.py
+│  │  └─ __init__.py
+│  ├─ core/
+│  │  ├─ config.py
+│  │  ├─ security.py
+│  │  └─ __init__.py
+│  ├─ models/
+│  │  ├─ customer.py
+│  │  ├─ user.py
+│  │  └─ __init__.py
+│  ├─ schemas/
+│  │  ├─ customer.py
+│  │  ├─ user.py
+│  │  └─ __init__.py
+│  ├─ services/
+│  │  ├─ customer_service.py
+│  │  ├─ auth_service.py
+│  │  └─ __init__.py
+│  ├─ db.py
+│  └─ main.py
+├─ tests/
+│  ├─ test_customers.py
+│  └─ test_auth.py
+├─ requirements.txt
+└─ pyproject.toml
 
